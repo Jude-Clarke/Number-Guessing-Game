@@ -1,0 +1,73 @@
+
+<!-- add a help button that shows the titles as spans -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Guessing-game.css">
+
+    <title>Guess the Number!</title>
+
+    <script src="script-en.js"></script>
+
+  </head>
+  <body>
+    <div id="intro">
+    	<h1 title="click here to play Más o Menos"id="title" onclick="spanish()">Use the clues to guess the number!</h1>
+    </div>
+    <div class="auto">
+            <h4>
+            <strong>How many tries will it take you?</strong>
+            </h4>
+    </div>
+    <h4 id="scorekeeper" title="These are your past scores"></h4>
+
+    <h4 id="average" title="This is your average score"></h4>
+
+    <div id="main">
+        <div id="score-box">
+                <h2 id="score" title="This is how many tries you took; the lower your score, the better!">
+                </h2>
+        </div>
+        <div id="top-button">
+            <div id="play">
+            <h5>Click here to play!</h5>
+            </div>
+            <button type="button" id="Start" class="btn btn-success" onclick="bootup()">Begin</button>
+        </div>
+        <div id="difficulty">
+            <h5 id ="diff">Choose your difficulty.</h5>
+            <button type="button" title="You like to keep it simple." id="easy" class="btn btn-success" onclick="easy()">Easy</button>
+            <button type="button" title="Your have a strategy that prevails!" id="medium" class="btn btn-warning" onclick="medium()">Medium</button>
+            <button type="button" title="You rely on luck just a little too much." id="hard" class="btn btn-danger" onclick="hard()">Hard</button>
+            <button type="button" title="You're clearly a glutton for punishment." id="imposible" class="btn btn-dark" onclick="impossible()">Impossible</button>
+        </div>
+          <center>
+           <div id="guess-history"> </div>
+          </center>
+        <div id="reset">
+        <button type="button" class="btn btn-primary" onclick="reset()">Reset Records</button>
+        </div>
+    </div>
+
+
+
+<!-- </div>
+
+<div id="bottom-button"><button type="button" id="Randomize" class="btn btn-primary" onclick="bootup()">Randomize!</button>
+
+
+</div> -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+  </body>
+</html>

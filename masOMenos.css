@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 14px Georgia, serif;
+  background-color: lavender;
+}
+#intro {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 68px 0px 0px 0px;
+}
+#scorekeeper {
+  position: relative;
+  top: 5px;
+  left: 5%;
+  float: left;
+  width: 17%;
+}
+#average {
+  position: relative;
+  top: 5px;
+  right: 5%;
+  float: right;
+  width: 17%;
+}
+#main {
+  margin-left: 17%;
+  margin-right: 17%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 66%;
+}
+#top-button {
+  text-align: center;
+}
+/*#banner {
+  padding: 25px;
+  background-image: ;*/
+}
+#score {
+  margin-top: 17.5px;
+  margin-bottom: 17.5px;
+  text-align: center;
+}
+#score-box {
+  width: 28%;
+  /*background-color: white;*/
+  margin: 0px 36% 0px 36%;
+  text-align: center;
+}
+#play {
+margin-top: 5px;
+}
+#difficulty {
+  text-align: center;
+}
+h1 {
+  font: 50px Baskerville, Georgia, Serif;
+  letter-spacing: -1px;
+  text-align: center;
+}
+h2 {
+  margin-bottom: 0px;
+}
+h5 {
+  margin-top: 22px;
+  text-align: center;
+}
+
+}
+#guess-history {
+  margin: 10px 0px 5px 0px;
+  text-align: center;
+}
+#reset {
+  text-align: center;
+  margin-top: 25px;
+}
+.code {
+  color: #333;
+  position: relative;
+  overflow: hidden;
+}
+.code:hover {
+}
+.code h2 {
+  text-align: left;
+  color: #ccc;
+  font: 11px monaco, mono-space;
+  padding-left: 30px;
+}
+.code:after {
+  content: "Double click to close";
+  position: absolute;
+  right: 0;
+  top: 100%;
+  margin-top: 3px;
+  color: red;
+  font: 10px monaco, mono-space;
+}
+.text-box {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-bottom: 44px;
+}
+.auto {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+hr {
+  margin: 50px 0 5px 0;
+}
+
+body style {
+  display: block;
+  background: #333;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  white-space: pre;
+  font: 11px monaco, mono-space;
+  text-align: left;
+  padding: 10px;
+  margin: 10px 0;
+}
