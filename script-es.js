@@ -4,7 +4,7 @@
 //     return title;
 // }
 function english(){
-    location.assign("Guessing-game.html")
+    location.assign("index.html")
     };
 
 

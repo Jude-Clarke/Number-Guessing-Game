@@ -15,6 +15,14 @@ p {
   margin-right: auto;
   margin: 68px 0px 0px 0px;
 }
+#title {
+  transition: .2s;
+}
+#title:hover {
+  cursor: pointer;
+  font-size: 3.2rem;
+  transition: .3s;
+}
 #scorekeeper {
   position: relative;
   top: 5px;
@@ -63,7 +71,7 @@ input[type=text]{
     box-sizing:border-box;
     transition:.3s;
     }
-  
+
   input[type=text]:focus{
     border-color:dodgerBlue;
     box-shadow:0 0 8px 0 dodgerBlue;
